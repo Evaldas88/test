@@ -108,7 +108,34 @@ color: #7f7f7f;
  
 }
 
-
+.circle1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+   
+}
+.circle2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+   
+}
+.circle3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+   
+}
+    
 .circle4::before {
     content: "";
     position: absolute;
