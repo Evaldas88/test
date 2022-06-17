@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+.flex {
+display: flex;  
+}
+
+.items-center {
+align-items: center;
+}
+
+.space-between{
+justify-content: space-between;
+}
+
+.intro {
+width: 20%;
+}
+
+img {
+height: 120px;
+max-width: 200px;
+}
+.container{
+max-width: 1300px;
+width: 100%;
+margin: 0  auto;
+padding: 50px 15px;
+position: relative;
+z-index: 1;
+} 
+
+h1{
+color: #E36959;
+padding-top: 15px;
+text-transform: uppercase;
+text-align: center;
+font-size: 32px;
+}
+
+p{
+text-align: center;
+font-size: 14px;
+color: #7f7f7f;
+}
+
+.alling{
+    text-align: center;
+}
+
+.circle1 {
+    position: absolute;
+    border: 3px solid #70C0C9;
+    color: #70C0C9;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-left: -16px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2
+}
+
+.circle2 {
+    position: absolute;
+    border: 3px solid #4074BD;
+    color: #4074BD;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-left: -16px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2
+    }
+
+.circle3 {
+    position: absolute;
+    border: 3px solid #E05E46;
+    color: #E05E46;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-left: -16px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2
+}
+.circle4 {
+    position: absolute;
+    border: 3px solid #919191;
+    color: #919191 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    margin-left: -16px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2
+ 
+}
+
+
+.circle4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+   
+}
+    
+.color1 {
+    background:#70C0C9 ;
+    border: 25px solid #70C0C9;
+    height: 173px;
+    width: 230px;
+}
+
+.color2 {
+    background:#4074BD;
+    border: 25px solid #4074BD;
+    height: 173px;
+    width: 230px;
+}
+
+.color3 {
+    background:#E05E46 ;
+    border: 25px solid #E05E46;
+    height: 173px;
+     width: 230px;
+ }
+.color4 {
+         background:#919191;
+         border: 25px solid#919191;
+        height: 173px;
+        width: 230px;
+}
+                        
